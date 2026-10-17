@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#230d1b">
+  <title>Untuk Dira Sayang ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="navbar">
+    <a class="brand" href="#home"><span class="brand-heart">♥</span> Untuk Dira Sayang <span>♡</span></a>
+    <nav>
+      <a href="#home">Home</a><a href="#musik">Lagu</a><a href="#kenangan">Foto</a><a href="#surat">Surat</a>
+    </nav>
+    <button class="menu-button" id="menuButton" aria-label="Buka menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">✦ SEBUAH KEJUTAN KECIL UNTUKMU ✦</p>
+        <h1>Untuk <span>Dira Sayang</span><i>♡</i></h1>
+        <p class="hero-copy">Dari sekian banyak hal indah di dunia,<br>aku paling bersyukur karena bisa mengenal kamu.</p>
+        <p class="hero-note">Kamu adalah rumah yang selalu ingin aku tuju. ♡</p>
+        <a class="primary-button" href="#musik">Buka kejutan kita <span>♡</span></a>
+      </div>
+      <div class="hero-bottom">MADE WITH LOVE, JUST FOR YOU <span>♥</span></div>
+    </section>
+
+    <section class="music-section section-pad" id="musik">
+      <div class="section-heading">
+        <p class="eyebrow">OUR LITTLE SOUNDTRACK</p>
+        <h2>Lagu <em>untuk kita</em> ♡</h2>
+        <p>Ada lagu yang terdengar biasa, sampai lagu itu mengingatkan aku padamu.</p>
+      </div>
+      <div class="music-card">
+        <div class="vinyl-wrap"><div class="vinyl"><div class="vinyl-center">♡</div></div><span class="music-note note-a">♫</span><span class="music-note note-b">♪</span></div>
+        <div class="player-content">
+          
+<div class="pemutar-musik">
+    <p>🎵 Lagu untuk Dira Sayang</p>
+
+    <audio controls preload="metadata">
+        <source src="./lagu/lagu-kita.mp3.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung pemutar audio.
+    </audio>
+</div>
+
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="kenangan">
+      <div class="section-heading">
+        <p class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</p>
+        <h2>Potongan <em>cerita kita</em> ♡</h2>
+        <p>Ganti foto-foto ini dengan momen favorit kalian.</p>
+      </div>
+      
+<div class="galeri-foto">
+    <img src="foto/foto1.jpg.jpeg" alt="Foto kenangan 1">
+    <img src="foto/foto2.jpg.jpeg" alt="Foto kenangan 2">
+    <img src="foto/foto3.jpg.jpeg" alt="Foto kenangan 3">
+    <img src="foto/foto4.jpg.jpeg" alt="Foto kenangan 4">
+    <img src="foto/foto5.jpg.jpeg" alt="Foto kenangan 5">
+</div>
+
+       
+<article class="photo-card">
+    <div class="photo-frame">
+        <img src="foto/foto6.jpg.jpg" alt="Foto kita">
+        <img src="foto/foto2.jpg.webp" alt="Foto kita">
+    </div>
+    <p>Awal cerita kita ♡</p>
+</article>
+
+
+    <section class="letter-section section-pad" id="surat">
+      <div class="letter-decor decor-left">♥<br>❀<br>♥</div>
+      <article class="letter">
+        <p class="eyebrow">OPEN WHEN YOU NEED A HUG</p>
+        <h2>Surat kecil <em>untukmu</em></h2>
+        <div class="letter-line">♡ ───────── ✦ ───────── ♡</div>
+        <p>Dira sayang,</p>
+        <p>Terima kasih sudah hadir di hidupku. Terima kasih untuk tawa, cerita, dan hal-hal sederhana yang jadi istimewa karena ada kamu.</p>
+        <p>Aku tahu aku belum sempurna. Aku masih belajar untuk mendengar lebih baik, menjaga perasaanmu, dan menunjukkan sayang lewat tindakan, bukan hanya kata-kata.</p>
+        <p>Semoga kamu selalu punya alasan untuk tersenyum. Kalau suatu hari dunia terasa melelahkan, semoga kamu ingat bahwa kamu berharga dan pantas disayangi dengan tulus.</p>
+        <p class="letter-end">Aku sayang kamu, hari ini dan seterusnya. ♡</p>
+        <p class="signature">— seseorang yang selalu mendoakanmu</p>
+      </article>
+      <div class="letter-decor decor-right">♡<br>✿<br>♡</div>
+    </section>
+
+    <section class="final-section">
+      <div class="big-heart">♡</div>
+      <p class="eyebrow">ONE LAST THING...</p>
+      <h2>Kamu itu <em>istimewa.</em></h2>
+      <p>Terima kasih sudah menjadi bagian dari ceritaku.</p>
+      <button class="primary-button" id="surpriseButton">Tekan untuk kejutan terakhir ♡</button>
+      <p class="final-message" id="finalMessage" hidden>Kalau aku boleh memilih lagi, aku tetap ingin mengenal kamu. Peluk jauh untuk Dira Sayang! 💗</p>
+    </section>
+  </main>
+
+  <footer>Dirancang dengan banyak cinta <span>♥</span> khusus untuk Dira Sayang</footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+  <div class="pemutar-musik">
+  <p>🎵 Lagu untuk Dira Sayang</p>
+  <audio controls>
+    <source src="lagu/lagu-kita.mp3.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+</div>
+</body>
+</html>
